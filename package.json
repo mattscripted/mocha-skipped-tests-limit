@@ -1,0 +1,25 @@
+{
+  "name": "mocha-skipped-tests-limit",
+  "version": "1.0.0",
+  "author": "mattscripted",
+  "description": "Limit skipped tests in Mocha",
+  "homepage": "https://github.com/mattscripted/mocha-skipped-tests-limit#readme",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattscripted/mocha-skipped-tests-limit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mattscripted/mocha-skipped-tests-limit/issues"
+  },
+  "scripts": {
+    "test": "mocha **/*.test.js",
+    "test:limit-skipped": "node scripts/limit-skipped-tests.js --skippedTestsPercentLimit=40"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "minimist": "^1.2.5",
+    "mocha": "^9.1.3",
+    "mocha-json-output-reporter": "^2.0.1"
+  }
+}
