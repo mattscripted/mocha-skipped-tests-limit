@@ -2,7 +2,7 @@ const expect = require('expect.js')
 
 describe('example', () => {
   it('includes a passing test', () => {
-    expect(true).to.equal(false)
+    expect(true).to.equal(true)
   })
 
   it('includes a failing test', () => {
