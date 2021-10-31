@@ -14,4 +14,4 @@ In `package.json`, modify the `test:limit-skipped` command to set the `skippedTe
 
 Run `npm run test:limit-skipped` to verify that the percent of skipped tests does not exceed the limit.
 
-If the limit it exceeded, a console message will be displayed, and an `exitCode` of `1` will be returned.
+If the limit is exceeded, a console message will be displayed, and an `exitCode` of `1` will be returned.
