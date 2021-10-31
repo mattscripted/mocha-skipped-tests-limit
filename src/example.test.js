@@ -14,7 +14,7 @@ describe('example', () => {
   })
 
   // Uncomment to trigger the limit
-  // it.skip('skips another test', () => {
-  //   expect(true).to.equal(true)
-  // })
+  it.skip('skips another test', () => {
+    expect(true).to.equal(true)
+  })
 })

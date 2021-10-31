@@ -14,7 +14,8 @@
   },
   "scripts": {
     "test": "mocha **/*.test.js",
-    "test:limit-skipped": "node scripts/limit-skipped-tests.js --skippedTestsPercentLimit=40"
+    "test:limit-skipped-js": "node scripts/limit-skipped-tests.js --skippedTestsPercentLimit=40",
+    "test:limit-skipped-bash": "bash ./scripts/limit-skipped-tests.sh 40"
   },
   "devDependencies": {
     "expect.js": "^0.3.1",
